@@ -64,6 +64,17 @@ int [,] Create2DArray(int rows, int columns)
             newArray[i,j] = 0;
         }
     }
+/*    
+    newArray[5,0] = -7;
+    newArray[5,1] = -7;
+    newArray[5,2] = -7;
+    newArray[5,3] = -7;
+
+    newArray[5,5] = -7;
+    newArray[5,6] = -7;
+    newArray[5,7] = -7;
+    newArray[5,8] = -7;
+*/    
     return newArray;
 }
 
